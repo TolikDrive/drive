@@ -5,61 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tolik</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-        <a href=""><img src="./images/logo.svg" alt="logo" >
+    <header class="header">
+        <a class="header-logo link" href=""><img src="./images/logo.svg" alt="logo" >
         </a>
-        <nav>
-            <ul>
-                <li><a href=" ">Студия</a></li>
-                <li><a href=" ">Портфолио</a></li>
-                <li><a href=" ">Контакты</a></li> 
+        <nav class=" header-nav">
+            <ul class="list header-list">
+                <li class="header-item"><a class="link header-link" href=" ">Студия</a></li>
+                <li class="header-item"><a class="link header-link" href=" ">Портфолио</a></li>
+                <li class="header-item"><a class="link header-link" href=" ">Контакты</a></li> 
             </ul>
         </nav>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-            <button type="button">info@devstudio.com</button>
+            <a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="button header-mailto" href="mailto: info@devstudio.com" > info@devstudio.com </a>
     
     </header>
     <main>
-        <section class="herro">
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button"> Заказать услугу </button>
+        <section class="buisness">
+        <h1 class="buisness-pre-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="buisness-btn" type="button"> Заказать услугу </button>
         </section>
-        <section>
-        <ul>
-            <li>
-                <h1>Внимание к деталям</h1>
-                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        <section class="work">
+        <ul class="list work-list">
+            <li class="work-item">
+                <h1 class="work-title">Внимание к деталям</h1>
+                <p class="work-pre-title">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
-            <li>
-                <h1>Пунктуальность</h1>
-            <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            <li class="work-item"> 
+                <h1 class="work-title">Пунктуальность</h1>
+            <p class="work-pre-title">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
-        <li>
-            <h1>Планирование</h1>
-            <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+        <li class="work-item">
+            <h1 class="work-title">Планирование</h1>
+            <p class="work-pre-title">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
-        <li>
-            <h1>Современные технологии</h1>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+        <li class="work-item">
+            <h1 class="work-title">Современные технологии</h1>
+            <p class="work-pre-title">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
-        <h1>Чем мы занимаемся</h1>
-        <ul>
-            <li>
-                <img src="/images/img1.jpg" alt="computer work">
+        <h1 class="work-title">Чем мы занимаемся</h1>
+        <ul class="list">
+            <li class="work-item">
+                <img src="/images/img1.jpg" alt="computer work"
+                width="370"
+                height="294"
+                >
             </li>
-            <li>
-                <img src="./images/img2.jpg" alt="computer designe">
+            <li class="work-item">
+                <img src="./images/img2.jpg" alt="computer designe"
+                width="370"
+                height="294"
+                >
+                
             </li>
-            <li>
-                <img src="./images/img3.jpg" alt="designe">
+            <li class="work-item">
+                <img src="./images/img3.jpg" alt="designe"
+                width="370"
+                height="294">
             </li>
         </section>
-        <section> 
+        <section class="comand"> 
             <!-- наша команда -->
 <h1>Наша команда</h1>
-<ul>
+<ul class="list">
     <li><img 
         src="./images/comand1.jpg" alt="ihor"
         width="270"
@@ -98,17 +112,17 @@
     </main>
 <footer>
     
-    <a href=""><img src="./images/logo.svg" alt="logo" 
+    <a class="link" class="link"  href=""><img src="./images/logo.svg" alt="logo" 
         width="145"
         height="31"
         >
     </a>
 
     <address>
-<ul>
-    <li><a href="https://goo.gl/maps/E3oxHwqj6gt2Ruav8" target="_blank" rel="noopener noreferre">г. Киев, пр-т Леси Украинки, 26 </a></li>
-    <li><a href="mailto:info@example.com">info@example.com</a></li>
-    <li><a href="tel:+380991111111"> +38 099 111 11 11</a></li>
+<ul class="list">
+    <li><a class="link" href="https://goo.gl/maps/E3oxHwqj6gt2Ruav8" target="_blank" rel="noopener noreferre">г. Киев, пр-т Леси Украинки, 26 </a></li>
+    <li><a class="link" href="mailto:info@example.com">info@example.com</a></li>
+    <li><a class="link" href="tel:+380991111111"> +38 099 111 11 11</a></li>
 </ul>
 </address>
 </footer>
