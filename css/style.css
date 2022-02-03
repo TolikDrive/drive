@@ -83,7 +83,7 @@ top: 430px;
 
 }
  /*------------------ work----------------------- */
- .work-title{
+.work-title{
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -92,8 +92,8 @@ top: 430px;
     
     color: #212121;
     
- }
- .work-pre-title{
+}
+.work-pre-title{
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
@@ -102,6 +102,5 @@ top: 430px;
     letter-spacing: 0.03em;
     
     color: #757575;
- }
+}
 
-  
