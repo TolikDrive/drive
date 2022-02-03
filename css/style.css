@@ -53,9 +53,9 @@ font-size: 44px;
 line-height: 1.36;
 /* or 136% */
 
-/* text-align: center;
+text-align: center;
 letter-spacing: 0.06em;
-text-transform: uppercase; */
+text-transform: uppercase; 
 
 color: #FFFFFF;
 }
@@ -104,3 +104,55 @@ top: 430px;
     color: #757575;
 }
 
+/*=----------------------- comand----------- */
+.comand-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+.comand-pre-title{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+
+
+/* text-align: center; */
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.comand-after-title{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.18;
+/* text-align: center; */
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+/* ------------------------footer---------------  */
+.footer{
+
+
+background: #2F303A;
+}
+/* -----------------adres----------- */
+.link2{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.link3{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);;
+}
