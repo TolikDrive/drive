@@ -11,6 +11,10 @@ body {
 .link{
     text-decoration: none;
 }
+
+
+
+
 /*------------------------ header--------------------- */
 .header-link{
 font-weight: 500;
@@ -158,4 +162,40 @@ color: rgba(255, 255, 255, 0.6);;
 }
 .current{
     color: #2196F3;
+}
+/* -------------------------------------portfolio--------------------- */
+.portfolio-btn{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+    background: #2196F3;
+    
+}
+.portfolio-pre-title{
+    font-weight: bold;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+.portfolio-title{
+    font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+
+color: #757575;
+
+
 }
