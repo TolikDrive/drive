@@ -16,6 +16,11 @@ body {
 
 
 /*------------------------ header--------------------- */
+.header{
+    padding-top:24px;
+    padding-bottom: 25px;
+}
+
 .header-link{
 font-weight: 500;
 font-size: 14px;
@@ -32,11 +37,7 @@ color: #212121;
 color: var(--accent-color);
 }
 .header-tel{
-    position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
+
 
 font-weight: 500;
 font-size: 14px;
@@ -45,83 +46,107 @@ letter-spacing: 0.02em;
 
 color: #757575;
 }
+.header-mailto{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 
+color: #2196F3;
+
+}
 /*----------------------- buisness------------------- */
 .buisness{
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color:  #2F303A;;
 }
+
 .buisness-pre-title{
-font-family: Roboto
-font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-/* or 136% */
-
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase; 
-
 color: #FFFFFF;
+margin-bottom: 34px;
 }
 .buisness-btn{
-    font-family: inherit;
-font-weight: bold;
-font-size: 16px;
+ont-size: 16px;
 line-height: 1.875;
-/* identical to box height, or 187% */
-
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-
 color: #FFFFFF;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-position: absolute;
+/* position: absolute;
 width: 200px;
 height: 50px;
 left: 700px;
-top: 430px;
-
+top: 430px; */
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
  /*------------------ work----------------------- */
+.work{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .work-title{
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
     color: #212121;
+    margin-bottom: 10px;
     
 }
 .work-pre-title{
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-    
     letter-spacing: 0.03em;
-    
     color: #757575;
+    margin-bottom: 94px;
+}
+.work-title-work{
+    font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.work-item{
+    padding-top: 50px;
+    margin-bottom: 94px;
 }
 
 /*=----------------------- comand----------- */
+.comand{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.comand-img{
+    margin-bottom: 30px;
+}
 .comand-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.03em;
-    
     color: #212121;
+    margin-bottom: 50px;
+
 }
 .comand-pre-title{
-    font-weight: 500;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
+margin-bottom: 10px;
 
 
 /* text-align: center; */
@@ -133,14 +158,14 @@ color: #212121;
 font-weight: normal;
 font-size: 16px;
 line-height: 1.18;
-/* text-align: center; */
 letter-spacing: 0.03em;
-
 color: #757575;
+margin-bottom: 30px;
 }
 /* ------------------------footer---------------  */
 .footer{
-
+padding-top: 60px;
+padding-bottom: 60px;
 
 background: #2F303A;
 }
@@ -198,4 +223,10 @@ letter-spacing: 0.03em;
 color: #757575;
 
 
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
